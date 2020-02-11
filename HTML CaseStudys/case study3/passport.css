@@ -1,0 +1,37 @@
+body {
+	    background:linear-gradient(orange,green);
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+}
+input[name="submit"]{
+	margin-left: 650px;
+	padding: 30px;
+}
+table{
+	
+	line-height: 54px;
+}
+h1{
+	font-family: serif;
+}
+#table{
+				background:linear-gradient( #ffbf80,#66ff66);
+				
+			 width: 450px;
+  			height: 300px;
+  			padding: 40px; 
+ 			 line-height: 30px;
+ 			 border:1px solid black;
+ 			 font-size: 12px;
+}
+#submit{
+	margin-left: 450px;
+}
+#reset{
+	margin-left: 100px;
+
+}

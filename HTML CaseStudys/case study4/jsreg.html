@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration Screen</title>
+	<link rel="stylesheet" href="jsreg.css" type="text/css">
+	<script  src="valid.js"></script>
+</head>
+<body>
+	<header>
+     <b>User Registration Screen</b>
+   </header>
+   
+	<table id="table" align="center">
+	<form  id="myform" action="second.html" method="post" onsubmit="return validateform()" target="_blank" name="myform">
+		<tr>	
+		<th align="left">Email ID</th>
+		<td><input type="email"placeholder="email id"name="email" >
+		</td>
+	   </tr>
+		<tr>
+		<th align="left">Name </th>
+		<td>
+		<input type="text" name="name" placeholder="USER NAME" >
+		</td>
+	   </tr>
+	   <tr>
+       <th align="left">Password</th>
+       <td><input type="Password" name="Pwd" placeholder="PASSWORD"></td>
+       </tr>
+		<tr>
+		<th align="left">Retype Password</th>
+	<td><input type="password" name="password" placeholder="Retype PASSWORD"></td>
+	</tr>
+	<tr>
+		<th align="left">Address:</th>
+		<td><textarea name="address" rows="5" cols="20" placeholder="User can enter up to 250 characters"></textarea></td>
+	</tr>
+
+		<tr>
+		<th align="left">Mobile Phone</th>
+		<td><input type="text" pattern="[789][0-9]{9}" ></td>
+	   </tr>
+	   <tr>
+		<th align="left">Landline</th>
+		<td><input type="text" pattern="[789][0-9]{9}" ></td>
+	   </tr>
+</table>
+
+<center>
+	<input id="submit" name="submit" type="image" src="submit.jpg" width='120px' height='50px'>
+	<button type="reset"> <img src="reset.jpg" width='120px' height='40px'></button>	
+	</form>
+
+</center>
+
+<footer>
+  <p>This website and its content is copyright of User Registration Screen</p>
+</footer>
+</body>
+</html>

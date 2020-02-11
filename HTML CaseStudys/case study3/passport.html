@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Passport</title>
+<link rel="stylesheet" href="passport.css" type="text/css">
+	<script  src="valid.js"></script>
+</head>
+<body>
+
+			<div class="header">
+				<img src='air.png' style='position:absolute; top:32px; left:300px;' width='100px' height='100px'>
+
+  					<h1>PASSPORT SEVA SYSTEM SUPPORT</h1>
+			</div>
+			<table id="table" align="center" >
+	        <form id="myform" action="second.html" method="post" onsubmit="return validateform()" name="myform">
+					<tr>
+						<th>USER NAME</th>
+						<td><input type="text" name="name"></td>
+					</tr>
+					<tr>
+						<th>PASSWORD</th>
+						<td><input type="password" name="Pwd"></td>
+					</tr>
+					<tr>
+						<th>QUALIFICATION:</th>
+							<td>
+								<select>
+										<option value="general">B-TECH </option>
+										<option value="TATKAL">BSC</option>
+
+			
+								</select>
+							</td>
+						</tr>
+					<tr>
+						<th>PRIMARY E-MAIL ID</th>
+						<td><input type="email" name="email"></td>
+					</tr>	
+					<tr>
+						<th>SECONDARY E-MAIL ID</th>
+						<td><input type="email" name="semail"></td>
+					</tr>
+					<tr>
+						<th>MOBILE NUMBER</th>
+						<td><input type="text" name="mobno"></td>
+					</tr>
+					<tr>
+						<th>LANDLINE</th>
+						<td><input type="text" name="landline"></td>
+					</tr>
+					<tr>
+		
+						<th>DATE OF BIRTH:</th>
+						<td><input type="date" name="DOB"></td>
+					</tr>	
+					<tr>
+						<th>LOAN TYPE :</th>
+							<td>
+								<select>
+										<option value="general">GENERAL </option>
+										<option value="TATKAL">TATKAL</option>
+			
+								</select>
+							</td>
+						</tr>
+					<tr>	
+						<th>GENDER:</th>
+						<td>
+							<input type="radio" name="gender" value="male" > Male
+							<input type="radio" name="gender" value="male"> female
+						</td>
+					</tr>
+					<tr>
+						<th>HINT QUESTION:</th>
+							<td>
+								<select>
+										<option value="general">WHAT IS YOUR PET'S NAME</option>
+										<option value="TATKAL">WHAT IS YOUR FIRST SCHOOL NAME</option>
+			
+								</select>
+							</td>
+						</tr>
+					
+					<tr>
+						<th>HINT ANSWER:</th>
+						<td><input type="text" name="ANSWER"></td>
+					</tr>
+					
+		</table>
+					<input id="submit" name="submit" type="image" src="submit.jpg" width='120px' height='50px'>
+	<button type="reset"> <img src="reset.jpg" width='120px' height='40px'></button>	
+					
+	</form>	
+
+	
+</body>
+</html>
